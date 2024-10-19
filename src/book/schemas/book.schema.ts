@@ -1,12 +1,13 @@
-import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
+import { Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
 
 export enum Category {
-  ADVENTURE = 'Adventure',
-  CLASSICS = 'Classics',
-  CRIME = 'Crime',
-  FANTASY = 'Fantasy',
+  ADVENTURE = "Adventure",
+  CLASSICS = "Classics",
+  CRIME = "Crime",
+  FANTASY = "Fantasy",
 }
 
+// スキーマを定義
 @Schema({
   timestamps: true,
 })
